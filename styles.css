@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Hind');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body{
+	font-family: 'Montserrat', sans-serif;
+	display: block;
+}
+
+/********************** NAV BAR *******************************************/
+.navbar-inverse{
+	background-color: #42CAFD;
+	border-color: #42CAFD;
+}
+.navbar-inverse .navbar-toggle{
+	border-color: #42CAFD;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+	border-color: #42CAFD;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+	background-color: white;
+}
+.navbar-inverse .navbar-toggle:hover .icon-bar, .navbar-inverse .navbar-toggle:focus .icon-bar{
+	background-color: #42CAFD;
+}
+.nav{
+	width: 100%;
+}
+.nav-item{
+	width: 32%;
+	text-align: center;
+}
+.navbar-inverse .navbar-nav>li>a{
+	color: white;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+	color: #216869;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+	color: #216869;
+	background-color: #42CAFD;
+	text-decoration: underline;
+}
+
+/********************** HERO IMAGE *******************************************/
+
+.hero{
+	margin-top: 51px;
+	height: 400px;
+	background-image: url("images/dressing-stack.jpg");
+	background-position: center;
+	background-size: cover;
+}
+.overlay{
+	background-color: rgba(0,0,0,.4);
+	height: 400px;
+}
+.title{
+	text-align: center;
+	padding-top: 80px;
+	color: white;
+}
+h1{
+	font-size: 76px;
+	font-weight: bold;
+	padding-bottom: 50px;
+}
+
+/*media queries for this section*/
+
+@media screen and (max-width: 760px){
+	h1{
+		font-size: 70px;
+	}
+
+	h2{
+		font-size: 24px;
+	}
+}
+
+@media screen and (max-width: 585px){
+	h1{
+		font-size: 64px;
+	}
+
+	h2{
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 400px){
+	.title{
+		padding-top: 50px;
+	}
+	h1{
+		font-size: 60px;
+	}
+
+	h2{
+		font-size: 20px;
+	}
+}
+
+/******************** BUTTON ICONS ********************************/
+
+.button-list{
+	margin:0 auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+.btn{
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+	color: white;
+}
+.btn-green{
+	background-color: #216869;
+}
+.btn-blue{
+	background-color: #66AE79;
+}
+
+/***************************** CTA *********************************/
+
+.cta-container{
+	background-color: #42CAFD;
+	text-align: center;
+}
+.btn-cta{
+	background-color: white;
+	color: #42CAFD;
+	padding: 15px 80px;
+	margin: 30px auto;
+}
