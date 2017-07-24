@@ -45,18 +45,18 @@ body{
 
 .hero{
 	margin-top: 51px;
-	height: 400px;
+	height: 550px;
 	background-image: url("images/dressing-stack.jpg");
 	background-position: center;
 	background-size: cover;
 }
 .overlay{
 	background-color: rgba(0,0,0,.4);
-	height: 400px;
+	height: 550px;
 }
 .title{
 	text-align: center;
-	padding-top: 80px;
+	padding-top: 140px;
 	color: white;
 }
 h1{
@@ -117,10 +117,13 @@ h1{
 }
 .btn-green{
 	background-color: #216869;
+	margin-top: 15px;
 }
 .btn-blue{
 	background-color: #66AE79;
+	margin-top: 15px;
 }
+
 
 /***************************** CTA *********************************/
 
@@ -133,4 +136,172 @@ h1{
 	color: #42CAFD;
 	padding: 15px 80px;
 	margin: 30px auto;
+}
+.btn-cta-responsive{
+	display: none;
+	background-color: white;
+	color: #42CAFD;
+	padding: 15px 40px;
+	margin: 30px auto;
+}
+.btn-cta-responsive-two{
+	display: none;
+	background-color: white;
+	color: #42CAFD;
+	padding: 15px 40px;
+	margin: 30px auto;
+}
+/*media queries for this section*/
+
+@media screen and (max-width: 555px){
+	.btn-cta{
+		padding: 15px 40px;
+	}
+}
+
+@media screen and (max-width: 490px){
+	.btn-cta{
+		display: none;
+	}
+	.btn-cta-responsive{
+		display: block;
+	}
+}
+@media screen and (max-width: 360px){
+	.btn-cta{
+		display: none;
+	}
+	.btn-cta-responsive{
+		display: none;
+	}
+	.btn-cta-responsive-two{
+		display: block;
+	}
+}
+/***************************** BIG IMAGE ABOUT ************************/
+
+.about-hero{
+	margin-top: 51px;
+}
+.big-image{
+	width: 100%;
+	height: 400px;
+	margin: 30px auto;
+	background-image: url("images/dressing-stack.jpg");
+	background-position: center;
+	background-size: cover;
+}
+h3{
+	color:#216869;
+	font-size: 48px;
+	padding-bottom: 10px;
+	padding-top: 20px;
+}
+p{
+	font-family: 'Hind', sans-serif;
+	font-size: 18px;
+}
+.small-image{
+	display: inline-block;
+	width: 40%;
+	height: 300px;
+	background-image: url("images/dressing-stack.jpg");
+	background-position: center;
+	background-size: cover;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.small-image-hidden{
+	display: none;
+}
+.about-text{
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
+	/*border: 5px solid #66AE79;*/
+}
+.about-text-one{
+	margin-left: 30px;
+}
+.about-text-two{
+	margin-right: 30px;
+}
+/* media queries for this section */
+@media screen and (max-width: 995px){
+	h3{
+		font-size: 40px;
+	}
+}
+
+@media screen and (max-width: 770px){
+	p{
+		font-size: 16px;
+	}
+
+	h3{
+		font-size: 36px;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.small-image-hidden{
+		display: block;
+	}
+	.small-image{
+		display: block;
+		width: 80%;
+		margin: 0 auto;
+	}
+	.small-image-shown{
+		display: none;
+	}
+	.about-text{
+		width: 90%;
+		margin-left: 0px;
+		margin-right: 0px;
+		text-align: center;
+		padding-bottom: 30px;
+	}
+	.who-we-are-text{
+		text-align: center;
+		padding-bottom: 30px;
+	}
+}
+
+/***************************** DRESSING ROW ************************/
+
+.dressing-row{
+	margin-top: 51px;
+	background-color: white;
+}
+.dressing-info{
+	vertical-align: top;
+}
+.dressing-row h3{
+	text-align: center;
+}
+.ingredients{
+	width: 70%;
+	margin: 0 auto;
+	padding-bottom: 30px;
+}
+.dressing-buttons{
+	width: 80%;
+	text-align: center;
+}
+.dressing-button-list{
+	padding-top: 10px;
+}
+.dressing-row-image{
+	margin-top: 50px;
+	background-image: url("images/chefing-dressing.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 300px;
+}
+
+@media screen and (max-width: 510px){
+	.ingredients{
+		width: 90%;
+	}
 }
