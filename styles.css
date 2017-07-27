@@ -167,8 +167,7 @@ h2, h4{
 	color: white;
 }
 .btn-green:hover{
-	color: white;
-	cursor: default;
+	color: #216869;
 }
 .btn-blue:hover{
 	color: white;
@@ -183,9 +182,6 @@ h2, h4{
 	background-color:#66AE79;
 	margin-top: 15px;
 }
-.not-btn{
-	border-radius: 100px;
-}
 .icon-box{
 	text-align: center;
 	color: #66AE79;
@@ -199,7 +195,82 @@ i{
 	padding-top: 40px;
 	padding-bottom: 20px;
 }
+@media screen and (max-width: 990px){
+	.icon-box{
+		display: inline-block;
+		width: 20%;
+	}
+}
 
+@media screen and (max-width: 720px){
+	.icon-box{
+		width: 50%;
+	}
+	.icon-box-last{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 310px){
+	.icon-box{
+		width: 100%;
+	}
+}
+/***************************** IMAGES *********************************/
+.home-images{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.image-row{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.home-images h4{
+	color: #216869;
+	vertical-align: middle;
+	font-size: 30px;
+	padding-top: 80px;
+}
+.home-image{
+	display: inline-block;
+	width: 300px;
+}
+.home-image-long{
+	width: 550px;
+}
+.image-div{
+	text-align: center;
+}
+@media screen and (max-width: 990px){
+	.home-images h4{
+		font-size: 24px;
+	}
+	.home-image-long{
+		width: 500px;
+	}
+}
+@media screen and (max-width: 810px){
+	.home-images h4{
+		font-size: 20px;
+	}
+	.home-image-long{
+		width: 400px;
+	}
+}
+@media screen and (max-width: 767px){
+	.home-images h4{
+		padding-top: 30px;
+	}
+}
+@media screen and (max-width: 455px){
+	.home-image-long{
+		width: 300px;
+	}
+}
+@media screen and (max-width: 365px){
+	.home-image-long{
+		width: 250px;
+	}
+}
 /***************************** CTA *********************************/
 
 .cta-container{
