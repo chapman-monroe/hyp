@@ -26,6 +26,9 @@ body{
 .active{
 	text-decoration: underline;
 }
+.navbar-default .navbar-brand {
+	color: white;
+}
 /********************** HERO IMAGE *******************************************/
 .green{
 	color:#42CAFD;
@@ -177,10 +180,25 @@ h2, h4{
 	border-color: #216869;
 }
 .btn-blue{
-	background-color: #66AE79;
+	background-color:#66AE79;
 	margin-top: 15px;
 }
-
+.not-btn{
+	border-radius: 100px;
+}
+.icon-box{
+	text-align: center;
+	color: #66AE79;
+	padding-bottom: 20px;
+}
+h5{
+	font-size: 20px;
+}
+i{
+	font-size: 40px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
 
 /***************************** CTA *********************************/
 
