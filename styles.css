@@ -28,7 +28,7 @@ body{
 }
 /********************** HERO IMAGE *******************************************/
 .green{
-	color: #66AE79;
+	color:#42CAFD;
 }
 .hero{
 	height: 600px;
@@ -51,11 +51,15 @@ body{
 	padding-top: 40px;
 }
 h1{
-	font-size: 78px;
+	font-size: 82px;
 	font-weight: bold;
 }
 h4{
+	font-size: 28px;
+}
+h2{
 	font-size: 24px;
+	padding-top: 20px;
 }
 h2, h4{
 	padding-bottom: 30px;
