@@ -23,9 +23,6 @@ body{
 .navbar-default .navbar-nav>li>a{
 	color: white;
 }
-.active{
-	text-decoration: underline;
-}
 .navbar-default .navbar-brand {
 	color: white;
 }
@@ -222,7 +219,7 @@ i{
 }
 .image-row{
 	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 40px;
 }
 .home-images h4{
 	color: #216869;
@@ -232,7 +229,7 @@ i{
 }
 .home-image{
 	display: inline-block;
-	width: 300px;
+	width: 372px;
 }
 .home-image-long{
 	width: 550px;
@@ -240,12 +237,25 @@ i{
 .image-div{
 	text-align: center;
 }
+.second-row{
+	padding-left: 55px;
+	padding-right: 55px;
+}
+.sep{
+	width: 100%;
+	text-align: center;
+	color: #216869;
+}
+
 @media screen and (max-width: 990px){
 	.home-images h4{
 		font-size: 24px;
 	}
 	.home-image-long{
 		width: 500px;
+	}
+	.home-image-desk{
+		width: 450px;
 	}
 }
 @media screen and (max-width: 810px){
@@ -260,10 +270,16 @@ i{
 	.home-images h4{
 		padding-top: 30px;
 	}
+	.desk{
+		text-align: center;
+	}
 }
 @media screen and (max-width: 455px){
 	.home-image-long{
 		width: 300px;
+	}
+	.carrot-gif{
+		width: 250px;
 	}
 }
 @media screen and (max-width: 365px){
