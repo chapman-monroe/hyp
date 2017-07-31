@@ -246,6 +246,9 @@ i{
 	text-align: center;
 	color: #216869;
 }
+.image-div-hidden{
+	display: none;
+}
 
 @media screen and (max-width: 990px){
 	.home-images h4{
@@ -272,6 +275,12 @@ i{
 	}
 	.desk{
 		text-align: center;
+	}
+	.image-div-shown{
+		display: none;
+	}
+	.image-div-hidden{
+		display: block;
 	}
 }
 @media screen and (max-width: 455px){
@@ -495,9 +504,36 @@ p{
 	margin-bottom: 20px;
 	text-align: center;
 }
+.packaging{
+	border: solid white 5px;
+}
+.icon{
+	text-align: center;
+	color: #66AE79;
+	width: 20%;
+	display: inline-block;
+}
 
-@media screen and (max-width: 510px){
+@media screen and (max-width: 990px){
+	.icon{
+		width: 33%;
+	}
+	.icon-last{
+		width: 50%;
+	}
+}
+@media screen and (max-width: 500px){
 	.ingredients{
-		width: 90%;
+		width: 100%;
+	}
+}
+@media screen and (max-width: 360px){
+	.packaging{
+		width: 250px
+	}
+}
+@media screen and (max-width: 320px){
+	.packaging{
+		width: 200px;
 	}
 }
