@@ -114,7 +114,7 @@ h2, h4{
 }
 
 .team-member-col{
-	height: 450px;
+	height: 500px;
 	text-align: center;
 	margin-bottom: 50px;
 	background-color: white;
@@ -145,7 +145,7 @@ h2, h4{
 }
 @media screen and (max-width: 550px){
 	.team-member-col{
-		height: 440px;
+		height: auto;
 	}
 }
 /******************** BUTTON ICONS ********************************/
@@ -298,6 +298,7 @@ i{
 	color: #42CAFD;
 	padding: 15px 80px;
 	margin: 30px auto;
+	display: block;
 }
 .btn-cta-responsive{
 	display: none;
@@ -314,14 +315,11 @@ i{
 	margin: 30px auto;
 }
 .btn-social-icon{
-	padding-left: 10px;
-	padding-right: 10px;
+	padding: 15px 10px;
 	margin-right: 0;
 	margin-left: 0;
 }
-.btn-facebook{
-	margin-left: 40px;
-}
+
 /*media queries for this section*/
 
 @media screen and (max-width: 555px){
@@ -376,19 +374,11 @@ p{
 }
 .small-image{
 	display: inline-block;
-	width: 45%;
-	height: 300px;
-	background-position: center;
-	background-size: cover;
+	width: 500px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
-.small-image-solution{
-	background-image: url("images/dressing-packet.jpg");
-}
-.small-image-mission{
-	background-image: url("images/cutting-dill.jpg");
-}
+
 .small-image-hidden{
 	display: none;
 }
@@ -409,9 +399,25 @@ p{
 	background-color: #B3EAFF;
 }
 /* media queries for this section */
+@media screen and (max-width: 1200px){
+	.small-image{
+		width: 400px;
+	}
+	.about-text{
+		margin-top: 30px;
+	}
+}
 @media screen and (max-width: 995px){
 	h3{
 		font-size: 40px;
+	}
+	.small-image{
+		width: 300px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.about-text{
+		margin-top: 0;
 	}
 }
 
@@ -425,14 +431,15 @@ p{
 	}
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 650px){
 	.small-image-hidden{
 		display: block;
 	}
 	.small-image{
 		display: block;
-		width: 80%;
-		margin: 0 auto;
+		width: 400px;
+		text-align: center;
+		margin: 20px auto;
 	}
 	.small-image-shown{
 		display: none;
@@ -449,12 +456,21 @@ p{
 		padding-bottom: 30px;
 	}
 }
+@media screen and (max-width: 450px){
+	.small-image{
+		width: 300px;
+	}
+}
+@media screen and (max-width: 350px){
+	.small-image{
+		width: 250px;
+	}
+}
 
 /***************************** DRESSING ROW ************************/
 
 .dressing-row{
 	margin-top: 51px;
-	background-color: white;
 }
 .dressing-info{
 	vertical-align: top;
